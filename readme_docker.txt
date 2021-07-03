@@ -1,0 +1,1 @@
+docker run -it -p 3000:3000 -v /app/node_modules -v /d/program/docker/frontend:/app -e CHOKIDAR_USEPOLLING=true yoshmatsumoto/frontend
